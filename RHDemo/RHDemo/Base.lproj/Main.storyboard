@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDq-Yn-1m4">
+                                <rect key="frame" x="20" y="239" width="177" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="激活"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjJ-p7-gkL">
+                                <rect key="frame" x="20" y="119" width="177" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xjX-5K-jgJ"/>
+                                </constraints>
+                                <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="loginGameAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QBF-Mh-aot"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOz-se-s9w">
+                                <rect key="frame" x="20" y="179" width="177" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="注销"/>
+                                <connections>
+                                    <action selector="logoutGameAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4VL-r5-Xcy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOd-DF-q7g">
+                                <rect key="frame" x="217" y="179" width="177" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="选服"/>
+                                <connections>
+                                    <action selector="selectRoleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5b-Eb-rMy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5a-8p-shF">
+                                <rect key="frame" x="217" y="119" width="177" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="购买"/>
+                                <connections>
+                                    <action selector="buyAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a4J-K5-wZL"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rzi-Vv-Pi9">
+                                <rect key="frame" x="217" y="239" width="177" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="商品列表"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EOd-DF-q7g" firstAttribute="leading" secondItem="KOz-se-s9w" secondAttribute="trailing" constant="20" id="1ou-c3-1jn"/>
+                            <constraint firstItem="QjJ-p7-gkL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="35H-P8-2hQ"/>
+                            <constraint firstItem="KOz-se-s9w" firstAttribute="height" secondItem="QjJ-p7-gkL" secondAttribute="height" id="3RN-pE-27g"/>
+                            <constraint firstItem="Rzi-Vv-Pi9" firstAttribute="height" secondItem="EOd-DF-q7g" secondAttribute="height" id="3uY-Nu-SAD"/>
+                            <constraint firstItem="Rzi-Vv-Pi9" firstAttribute="leading" secondItem="CDq-Yn-1m4" secondAttribute="trailing" constant="20" id="5gT-EK-zQz"/>
+                            <constraint firstItem="c5a-8p-shF" firstAttribute="height" secondItem="QjJ-p7-gkL" secondAttribute="height" id="6TC-vv-kyM"/>
+                            <constraint firstItem="KOz-se-s9w" firstAttribute="top" secondItem="QjJ-p7-gkL" secondAttribute="bottom" constant="20" id="6m7-lZ-Ha4"/>
+                            <constraint firstItem="c5a-8p-shF" firstAttribute="top" secondItem="QjJ-p7-gkL" secondAttribute="top" id="90n-OR-3gA"/>
+                            <constraint firstItem="CDq-Yn-1m4" firstAttribute="top" secondItem="KOz-se-s9w" secondAttribute="bottom" constant="20" id="CHW-XX-CZS"/>
+                            <constraint firstItem="CDq-Yn-1m4" firstAttribute="height" secondItem="KOz-se-s9w" secondAttribute="height" id="Dsl-KT-keA"/>
+                            <constraint firstItem="c5a-8p-shF" firstAttribute="width" secondItem="QjJ-p7-gkL" secondAttribute="width" id="R3e-nA-d05"/>
+                            <constraint firstItem="c5a-8p-shF" firstAttribute="leading" secondItem="QjJ-p7-gkL" secondAttribute="trailing" constant="20" id="Rnq-eU-vmn"/>
+                            <constraint firstItem="CDq-Yn-1m4" firstAttribute="leading" secondItem="KOz-se-s9w" secondAttribute="leading" id="Sds-g2-cfF"/>
+                            <constraint firstItem="Rzi-Vv-Pi9" firstAttribute="centerY" secondItem="CDq-Yn-1m4" secondAttribute="centerY" id="TVq-mf-gxv"/>
+                            <constraint firstItem="KOz-se-s9w" firstAttribute="width" secondItem="QjJ-p7-gkL" secondAttribute="width" id="Uts-57-8ks"/>
+                            <constraint firstItem="EOd-DF-q7g" firstAttribute="height" secondItem="c5a-8p-shF" secondAttribute="height" id="WNS-3t-4Wf"/>
+                            <constraint firstItem="EOd-DF-q7g" firstAttribute="centerY" secondItem="KOz-se-s9w" secondAttribute="centerY" id="b2u-F1-9WB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c5a-8p-shF" secondAttribute="trailing" constant="20" id="eL1-ya-TVD"/>
+                            <constraint firstItem="EOd-DF-q7g" firstAttribute="width" secondItem="c5a-8p-shF" secondAttribute="width" id="eVc-X6-K8i"/>
+                            <constraint firstItem="QjJ-p7-gkL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="h7T-Dd-QPD"/>
+                            <constraint firstItem="KOz-se-s9w" firstAttribute="leading" secondItem="QjJ-p7-gkL" secondAttribute="leading" id="n0Y-pU-NUt"/>
+                            <constraint firstItem="Rzi-Vv-Pi9" firstAttribute="width" secondItem="EOd-DF-q7g" secondAttribute="width" id="pxa-q2-agi"/>
+                            <constraint firstItem="CDq-Yn-1m4" firstAttribute="width" secondItem="KOz-se-s9w" secondAttribute="width" id="wiA-2s-JUz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>

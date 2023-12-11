@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2FB14149-F864-49D3-B749-F47664912EEA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "982103C1-79EF-4721-A38E-0161CD355EC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Translate/Translate/XYAPI/ApiGame.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "+loginXYWithSucc:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "982103C1-79EF-4721-A38E-0161CD355EC3 - 1d175a22a7b27955"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[ApiGame loginXYWithSucc:failure:]"
+                  moduleName = "Translate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanyue/Documents/%E6%97%AD%E6%89%AC&amp;Hapi%E5%87%BA%E5%8C%85%E8%B5%84%E6%96%99/%E8%8D%A3%E8%80%80%E5%A4%A7%E5%A4%A9%E4%BD%BF%E5%87%BA%E5%8C%85%E9%9B%86%E5%90%88%E6%B8%A0%E9%81%93/%E5%A5%87%E7%95%8C/%E8%9E%8D%E5%90%88SDK/Translate/Translate/XYAPI/ApiGame.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "982103C1-79EF-4721-A38E-0161CD355EC3 - 60572b91f85567f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35+[ApiGame loginXYWithSucc:failure:]_block_invoke"
+                  moduleName = "Translate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanyue/Documents/%E6%97%AD%E6%89%AC&amp;Hapi%E5%87%BA%E5%8C%85%E8%B5%84%E6%96%99/%E8%8D%A3%E8%80%80%E5%A4%A7%E5%A4%A9%E4%BD%BF%E5%87%BA%E5%8C%85%E9%9B%86%E5%90%88%E6%B8%A0%E9%81%93/%E5%A5%87%E7%95%8C/%E8%9E%8D%E5%90%88SDK/Translate/Translate/XYAPI/ApiGame.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB5AD686-DA40-4B09-8D4D-307629E1E805"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Translate/Translate/XYAPI/ApiGame.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "+creatPreOrder:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3963F060-B2A6-4174-88AB-C12EDDB8360D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Translate/Translate/XYAPI/ApiGame.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "+creatPreOrder:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6768519F-80B5-4E3D-B2CD-B1F48B99FC96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Translate/Translate/XYAPI/ApiGame.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "+creatPreOrder:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6768519F-80B5-4E3D-B2CD-B1F48B99FC96 - e22a89bff822390e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[ApiGame creatPreOrder:failure:]"
+                  moduleName = "Translate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanyue/Documents/%E6%97%AD%E6%89%AC&amp;Hapi%E5%87%BA%E5%8C%85%E8%B5%84%E6%96%99/%E8%8D%A3%E8%80%80%E5%A4%A7%E5%A4%A9%E4%BD%BF%E5%87%BA%E5%8C%85%E9%9B%86%E5%90%88%E6%B8%A0%E9%81%93/%E5%A5%87%E7%95%8C/%E8%9E%8D%E5%90%88SDK/Translate/Translate/XYAPI/ApiGame.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+               <Location
+                  uuid = "6768519F-80B5-4E3D-B2CD-B1F48B99FC96 - b5aa89bd63a2a5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33+[ApiGame creatPreOrder:failure:]_block_invoke"
+                  moduleName = "Translate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanyue/Documents/%E6%97%AD%E6%89%AC&amp;Hapi%E5%87%BA%E5%8C%85%E8%B5%84%E6%96%99/%E8%8D%A3%E8%80%80%E5%A4%A7%E5%A4%A9%E4%BD%BF%E5%87%BA%E5%8C%85%E9%9B%86%E5%90%88%E6%B8%A0%E9%81%93/%E5%A5%87%E7%95%8C/%E8%9E%8D%E5%90%88SDK/Translate/Translate/XYAPI/ApiGame.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

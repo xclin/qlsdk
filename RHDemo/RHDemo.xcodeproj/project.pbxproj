@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F3D290724A1A4B700E0CA16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D290624A1A4B700E0CA16 /* AppDelegate.m */; };
+		4F3D290D24A1A4B700E0CA16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D290C24A1A4B700E0CA16 /* ViewController.m */; };
+		4F3D291024A1A4B700E0CA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3D290E24A1A4B700E0CA16 /* Main.storyboard */; };
+		4F3D291224A1A4BA00E0CA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3D291124A1A4BA00E0CA16 /* Assets.xcassets */; };
+		4F3D291524A1A4BA00E0CA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3D291324A1A4BA00E0CA16 /* LaunchScreen.storyboard */; };
+		4F3D291824A1A4BA00E0CA16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D291724A1A4BA00E0CA16 /* main.m */; };
+		60FB6B9B2B14520A0042D2F2 /* QLTranslate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FB6B9A2B14520A0042D2F2 /* QLTranslate.framework */; };
+		60FB6B9C2B14520A0042D2F2 /* QLTranslate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60FB6B9A2B14520A0042D2F2 /* QLTranslate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9ABBCD462B21AB9D003CCBA4 /* QiLinSDKInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ABBCD452B21AB9C003CCBA4 /* QiLinSDKInfo.plist */; };
+		9ABBCD502B21BE61003CCBA4 /* YiYouSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ABBCD4F2B21BE61003CCBA4 /* YiYouSDK.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FBFA5BD24AC2565009B998F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60FB6B9C2B14520A0042D2F2 /* QLTranslate.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F3D290224A1A4B700E0CA16 /* project-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3D290524A1A4B700E0CA16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F3D290624A1A4B700E0CA16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F3D290B24A1A4B700E0CA16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F3D290C24A1A4B700E0CA16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F3D290F24A1A4B700E0CA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F3D291124A1A4BA00E0CA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F3D291424A1A4BA00E0CA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F3D291624A1A4BA00E0CA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3D291724A1A4BA00E0CA16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60FB6B9A2B14520A0042D2F2 /* QLTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QLTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABBCD452B21AB9C003CCBA4 /* QiLinSDKInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QiLinSDKInfo.plist; sourceTree = "<group>"; };
+		9ABBCD4F2B21BE61003CCBA4 /* YiYouSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YiYouSDK.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3D28FF24A1A4B700E0CA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FB6B9B2B14520A0042D2F2 /* QLTranslate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3D28F924A1A4B700E0CA16 = {
+			isa = PBXGroup;
+			children = (
+				4F3D290424A1A4B700E0CA16 /* RHDemo */,
+				4F3D290324A1A4B700E0CA16 /* Products */,
+				4F3D291E24A33A7400E0CA16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3D290324A1A4B700E0CA16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D290224A1A4B700E0CA16 /* project-mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3D290424A1A4B700E0CA16 /* RHDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4F7655B526B2AC1500542F54 /* SDK */,
+				4F3D290524A1A4B700E0CA16 /* AppDelegate.h */,
+				4F3D290624A1A4B700E0CA16 /* AppDelegate.m */,
+				9ABBCD452B21AB9C003CCBA4 /* QiLinSDKInfo.plist */,
+				4F3D290B24A1A4B700E0CA16 /* ViewController.h */,
+				4F3D290C24A1A4B700E0CA16 /* ViewController.m */,
+				4F3D290E24A1A4B700E0CA16 /* Main.storyboard */,
+				4F3D291124A1A4BA00E0CA16 /* Assets.xcassets */,
+				4F3D291324A1A4BA00E0CA16 /* LaunchScreen.storyboard */,
+				4F3D291624A1A4BA00E0CA16 /* Info.plist */,
+				4F3D291724A1A4BA00E0CA16 /* main.m */,
+			);
+			path = RHDemo;
+			sourceTree = "<group>";
+		};
+		4F3D291E24A33A7400E0CA16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60FB6B9A2B14520A0042D2F2 /* QLTranslate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F7655B526B2AC1500542F54 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9ABBCD4F2B21BE61003CCBA4 /* YiYouSDK.bundle */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3D290124A1A4B700E0CA16 /* RHDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3D291B24A1A4BA00E0CA16 /* Build configuration list for PBXNativeTarget "RHDemo" */;
+			buildPhases = (
+				4F3D28FE24A1A4B700E0CA16 /* Sources */,
+				4F3D28FF24A1A4B700E0CA16 /* Frameworks */,
+				4F3D290024A1A4B700E0CA16 /* Resources */,
+				4FBFA5BD24AC2565009B998F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHDemo;
+			productName = RHDemo;
+			productReference = 4F3D290224A1A4B700E0CA16 /* project-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3D28FA24A1A4B700E0CA16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = wuwh;
+				TargetAttributes = {
+					4F3D290124A1A4B700E0CA16 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F3D28FD24A1A4B700E0CA16 /* Build configuration list for PBXProject "RHDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F3D28F924A1A4B700E0CA16;
+			productRefGroup = 4F3D290324A1A4B700E0CA16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3D290124A1A4B700E0CA16 /* RHDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F3D290024A1A4B700E0CA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3D291524A1A4BA00E0CA16 /* LaunchScreen.storyboard in Resources */,
+				4F3D291224A1A4BA00E0CA16 /* Assets.xcassets in Resources */,
+				4F3D291024A1A4B700E0CA16 /* Main.storyboard in Resources */,
+				9ABBCD502B21BE61003CCBA4 /* YiYouSDK.bundle in Resources */,
+				9ABBCD462B21AB9D003CCBA4 /* QiLinSDKInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3D28FE24A1A4B700E0CA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3D290D24A1A4B700E0CA16 /* ViewController.m in Sources */,
+				4F3D290724A1A4B700E0CA16 /* AppDelegate.m in Sources */,
+				4F3D291824A1A4BA00E0CA16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F3D290E24A1A4B700E0CA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3D290F24A1A4B700E0CA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F3D291324A1A4BA00E0CA16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3D291424A1A4BA00E0CA16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F3D291924A1A4BA00E0CA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F3D291A24A1A4BA00E0CA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F3D291C24A1A4BA00E0CA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C8VR4T95N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RHDemo",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/AliPaySDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/AliPay",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/OpenSSL-for-iOS",
+					"$(PROJECT_DIR)/RHDemo/SDK/huosdkFramework",
+					"$(PROJECT_DIR)/RHDemo/SDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/XMYSource",
+				);
+				INFOPLIST_FILE = RHDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RHDemo/SDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/IpaynowPlugin",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/WXSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/SPSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/AliPaySDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SPaySDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/paymentcontrol/libs",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/FWPay/lib",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ppilib",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/WeChat_SDK/openSDK1.7.2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rydts.xmyruantuianeg;
+				PRODUCT_NAME = "project-mobile";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F3D291D24A1A4BA00E0CA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4C8VR4T95N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RHDemo",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/AliPaySDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/AliPay",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/OpenSSL-for-iOS",
+					"$(PROJECT_DIR)/RHDemo/SDK/huosdkFramework",
+					"$(PROJECT_DIR)/RHDemo/SDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/XMYSource",
+				);
+				INFOPLIST_FILE = RHDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RHDemo/SDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/IpaynowPlugin",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/WXSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/SPSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SDKS/Librarys/AliPaySDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/SPaySDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/paymentcontrol/libs",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/FWPay/lib",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/ppilib",
+					"$(PROJECT_DIR)/RHDemo/SDK/ThirdLibs/WeChat_SDK/openSDK1.7.2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rydts.xmyruantuianeg;
+				PRODUCT_NAME = "project-mobile";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3D28FD24A1A4B700E0CA16 /* Build configuration list for PBXProject "RHDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3D291924A1A4BA00E0CA16 /* Debug */,
+				4F3D291A24A1A4BA00E0CA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3D291B24A1A4BA00E0CA16 /* Build configuration list for PBXNativeTarget "RHDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3D291C24A1A4BA00E0CA16 /* Debug */,
+				4F3D291D24A1A4BA00E0CA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F3D28FA24A1A4B700E0CA16 /* Project object */;
+}

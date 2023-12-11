@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Translate/QLTranslate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RHDemo_H5/RHDemo_H5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RHDemo/RHDemo.xcodeproj">
+   </FileRef>
+</Workspace>

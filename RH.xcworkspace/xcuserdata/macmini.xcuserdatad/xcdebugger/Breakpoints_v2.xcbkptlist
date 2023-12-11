@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "54B9BDB4-DDA4-4453-9202-1B165D41F08B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47F2BDDA-0734-46A0-A08D-39BBE6111030"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Translate/QLTranslate/QLGameManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-initSDK"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47F2BDDA-0734-46A0-A08D-39BBE6111030 - d19d36e337ca3aca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[QLGameManager initSDK]_block_invoke_4"
+                  moduleName = "QLTranslate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Documents/%E9%AA%90%E9%BA%9F%E5%B7%A5%E4%BD%9C%E8%B5%84%E6%96%99/%E9%BA%92%E9%BA%9FSDK%E5%85%A8%E9%83%A8/%E9%AA%90%E9%BA%9FSDK%E6%BA%90%E7%A0%81-%E9%87%8D%E6%9E%84/%E8%9E%8D%E5%90%88SDK/Translate/QLTranslate/QLGameManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "47F2BDDA-0734-46A0-A08D-39BBE6111030 - d19d36e337ca3aca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[QLGameManager initSDK]_block_invoke_4"
+                  moduleName = "QLTranslate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Documents/%E9%AA%90%E9%BA%9F%E5%B7%A5%E4%BD%9C%E8%B5%84%E6%96%99/%E9%BA%92%E9%BA%9FSDK%E5%85%A8%E9%83%A8/%E9%AA%90%E9%BA%9FSDK%E6%BA%90%E7%A0%81-%E9%87%8D%E6%9E%84/%E8%9E%8D%E5%90%88SDK/Translate/QLTranslate/QLGameManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "47F2BDDA-0734-46A0-A08D-39BBE6111030 - 819a026ef6fec633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[QLGameManager initSDK]_block_invoke_4"
+                  moduleName = "QLTranslate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Documents/%E9%AA%90%E9%BA%9F%E5%B7%A5%E4%BD%9C%E8%B5%84%E6%96%99/%E9%BA%92%E9%BA%9FSDK%E5%85%A8%E9%83%A8/%E9%AA%90%E9%BA%9FSDK%E6%BA%90%E7%A0%81-%E9%87%8D%E6%9E%84/%E9%AA%90%E9%BA%9F%E8%81%9A%E5%90%88SDK/Translate/QLTranslate/QLGameManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3C91CB8-0D02-4393-A598-C63059D06A57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Translate/QLTranslate/QLGameManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "-orderWithProductId:goodsName:goodsDec:price:serverId:serverName:roleId:roleLevel:roleName:gameOther:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
